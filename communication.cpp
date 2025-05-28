@@ -17,5 +17,5 @@ void Communication::address(std::string& address) {
 
 // Closing message
 void Communication::closing(std::string title) {
-    std::cout << "Thank you for purchasing " << title << " from Zbox." << std::endl;
+    std::cout << "Thank you for purchasing " << title << " from Zbox, we hope you enjoy playing." << std::endl;
 }
